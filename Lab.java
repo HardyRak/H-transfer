@@ -36,7 +36,6 @@ public class Lab extends JLabel{
 		JLabel sary=new JLabel();
 		ImageIcon imgc=new ImageIcon("multi\\logo3.png");
 		sary.setIcon(imgc);
-		this.setBackground(Color.red);
 
 		JPanel logname=new JPanel();
 		logname.setBounds(75, 285, 125, 50);
