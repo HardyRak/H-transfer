@@ -29,14 +29,15 @@ public class Lab extends JLabel{
 		JPanel pan=new JPanel();
 		pan.setBounds(0, 0, 300, 50);
 		pan.setBackground(Color.blue);
-		
+	
 		//-------------------body----------------------
 		JPanel body=new JPanel();
 		body.setBounds(85, 150, 125, 125);
 		JLabel sary=new JLabel();
 		ImageIcon imgc=new ImageIcon("multi\\logo3.png");
 		sary.setIcon(imgc);
-		
+		this.setBackground(Color.red);
+
 		JPanel logname=new JPanel();
 		logname.setBounds(75, 285, 125, 50);
 		JLabel anarany=new JLabel();
